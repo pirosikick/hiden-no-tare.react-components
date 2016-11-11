@@ -1,8 +1,7 @@
 import test from 'ava';
 import React from 'react';
 import { shallow } from 'enzyme';
-// eslint-disable-next-line import/extensions
-import Hello from '../src/Hello.jsx';
+import Hello from './Hello';
 
 test(t => {
   const wrapper = shallow(<Hello name="world" />);

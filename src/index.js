@@ -1,7 +1,2 @@
-import Hello from './Hello';
-
-export {
-  // [TODO] Remove when added some components
-  // eslint-disable-next-line import/prefer-default-export
-  Hello,
-};
+/* eslint-disable import/prefer-default-export */
+export { default as Hello } from './Hello';
