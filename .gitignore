@@ -39,3 +39,5 @@ jspm_packages
 # sources compiled by Babel
 lib/
 dist/
+
+*.lcov
