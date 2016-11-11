@@ -3,10 +3,11 @@ import React, { PropTypes } from 'react';
 /**
  * Hello component
  *
+ * @param {object} props
  * @param {string} props.name - name
  */
-function Hello({ name }) {
-  return <h1>Hello, {name}!</h1>;
+function Hello(props) {
+  return <h1>Hello, {props.name}!</h1>;
 }
 
 Hello.propTypes = {
